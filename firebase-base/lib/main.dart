@@ -4,8 +4,9 @@ import 'package:flutter/material.dart';
 
 import 'app.dart';
 
-// TODO(codelab user): Get API key
-const clientId = 'AIzaSyCOPJGFE0YhX71djJr1f1aQ2AAn_zS30_Q';
+// DONE (codelab user): Get API key
+//AIzaSyCOPJGFE0YhX71djJr1f1aQ2AAn_zS30_Q
+const appClientId = 'AIzaSyCOPJGFE0YhX71djJr1f1aQ2AAn_zS30_Q';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

@@ -66,7 +66,10 @@ class DefaultFirebaseOptions {
     messagingSenderId: '400469711444',
     projectId: 'flutterfire-ui-codelab-ef478',
     storageBucket: 'flutterfire-ui-codelab-ef478.appspot.com',
-    iosClientId: '400469711444-7pr670s34girmlg32ogf5telasulf392.apps.googleusercontent.com',
+    androidClientId:
+        '400469711444-rm8ji7ghilevqiutdmq0jelnet4hhr8g.apps.googleusercontent.com',
+    iosClientId:
+        '400469711444-7pr670s34girmlg32ogf5telasulf392.apps.googleusercontent.com',
     iosBundleId: 'com.example.complete',
   );
 
@@ -76,7 +79,10 @@ class DefaultFirebaseOptions {
     messagingSenderId: '400469711444',
     projectId: 'flutterfire-ui-codelab-ef478',
     storageBucket: 'flutterfire-ui-codelab-ef478.appspot.com',
-    iosClientId: '400469711444-h6crubtibtvo0i8uu55bfbtje5dhh3k7.apps.googleusercontent.com',
+    androidClientId:
+        '400469711444-rm8ji7ghilevqiutdmq0jelnet4hhr8g.apps.googleusercontent.com',
+    iosClientId:
+        '400469711444-h6crubtibtvo0i8uu55bfbtje5dhh3k7.apps.googleusercontent.com',
     iosBundleId: 'com.example.complete.RunnerTests',
   );
 }

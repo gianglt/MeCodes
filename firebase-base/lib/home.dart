@@ -29,8 +29,12 @@ class HomeScreen extends StatelessWidget {
                       Padding(
                         padding: const EdgeInsets.all(2),
                         child: AspectRatio(
-                          aspectRatio: 1,
-                          child: Image.asset('assets/flutterfire_300x.png'),
+                          aspectRatio: 0.2,
+                          child: SizedBox(
+                              width: 300,
+                              height: 300,
+                              child:
+                                  Image.asset('assets/flutterfire_300x.png')),
                         ),
                       ),
                     ],
@@ -45,7 +49,8 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: Column(
           children: [
-            Image.asset('assets/dash.png'),
+            SizedBox(
+                width: 300, height: 300, child: Image.asset('assets/dash.png')),
             Text(
               'Welcome!',
               style: Theme.of(context).textTheme.displaySmall,

@@ -1,3 +1,4 @@
+import 'package:complete/main.dart';
 import 'package:firebase_auth/firebase_auth.dart' hide EmailAuthProvider;
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:firebase_ui_oauth_google/firebase_ui_oauth_google.dart'; // new
@@ -17,8 +18,10 @@ class AuthGate extends StatelessWidget {
           return SignInScreen(
             providers: [
               EmailAuthProvider(),
+
               GoogleProvider(
-                  clientId: "AIzaSyCOPJGFE0YhX71djJr1f1aQ2AAn_zS30_Q"), // new
+                  //clientId: "AIzaSyCOPJGFE0YhX71djJr1f1aQ2AAn_zS30_Q"), // new
+                  clientId: appClientId), // new
             ],
             headerBuilder: (context, constraints, shrinkOffset) {
               return Padding(
@@ -33,7 +36,7 @@ class AuthGate extends StatelessWidget {
               return Padding(
                 padding: const EdgeInsets.symmetric(vertical: 8.0),
                 child: action == AuthAction.signIn
-                    ? const Text('Welcome to FlutterFire, please sign in!')
+                    ? const Text('Xin chào FlutterFire, please sign in!')
                     : const Text('Welcome to Flutterfire, please sign up!'),
               );
             },
@@ -41,7 +44,7 @@ class AuthGate extends StatelessWidget {
               return const Padding(
                 padding: EdgeInsets.only(top: 16),
                 child: Text(
-                  'By signing in, you agree to our terms and conditions.',
+                  'Thiết kế bởi R.I.V. Team.',
                   style: TextStyle(color: Colors.grey),
                 ),
               );
