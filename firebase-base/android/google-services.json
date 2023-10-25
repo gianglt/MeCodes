@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "400469711444",
+    "project_id": "flutterfire-ui-codelab-ef478",
+    "storage_bucket": "flutterfire-ui-codelab-ef478.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400469711444:android:f875d537602c2e48d52bc1",
+        "android_client_info": {
+          "package_name": "com.example.complete"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400469711444-rm8ji7ghilevqiutdmq0jelnet4hhr8g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.complete",
+            "certificate_hash": "6dc9d5a9f28a2047a7eadbe91a083158d50aef74"
+          }
+        },
+        {
+          "client_id": "400469711444-62c7kvnf3tmlr9ii51m9nj8448v13g9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCOPJGFE0YhX71djJr1f1aQ2AAn_zS30_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400469711444-62c7kvnf3tmlr9ii51m9nj8448v13g9i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "400469711444-7pr670s34girmlg32ogf5telasulf392.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.complete"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+Using Keytool on the certificate
+Open a terminal and run the keytool utility provided with Java to get the SHA-1 fingerprint of the certificate. You should get both the release and debug certificate fingerprints.
+
+To get the release certificate fingerprint:
+
+
+keytool -genkey -v -keystore icco-debug-key.keystore -alias icco-debug -keyalg RSA -keysize 2048 -validity 10000
+pass hoa10hong
+
+keytool -list -v -alias icco-debug -keystore .\icco-debug-key.keystore
+
+Alias name: icco-debug
+Creation date: Oct 24, 2023
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: CN=Giang Lam, OU=Tech, O=ICCO, L=HC, ST=DN, C=VN
+Issuer: CN=Giang Lam, OU=Tech, O=ICCO, L=HC, ST=DN, C=VN
+Serial number: 6391dfb4
+Valid from: Tue Oct 24 21:56:09 ICT 2023 until: Sat Mar 11 21:56:09 ICT 2051
+Certificate fingerprints:
+         SHA1: 6D:C9:D5:A9:F2:8A:20:47:A7:EA:DB:E9:1A:08:31:58:D5:0A:EF:74
+         SHA256: 5A:74:63:6C:1A:8F:32:B7:19:82:A7:98:FA:95:BB:0E:3B:02:4C:B5:12:41:93:C9:0D:87:0E:D8:1A:EA:5F:9F
+Signature algorithm name: SHA256withRSA
+Subject Public Key Algorithm: 2048-bit RSA key
+Version: 3
+
+Extensions:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: DB 75 31 8B FC 98 50 B2   24 FB 40 7B 22 41 17 5E  .u1...P.$.@."A.^
+0010: C5 F2 25 E0                                        ..%.
+]
+]
+
+
